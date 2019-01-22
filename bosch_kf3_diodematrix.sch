@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:bosch_kf3
+EESchema Schematic File Version 4
 LIBS:bosch_kf3_diodematrix-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PLL U1
+L bosch_kf3_diodematrix-rescue:PLL U1
 U 1 1 59C78BB7
 P 7400 4350
 F 0 "U1" H 8300 3350 60  0000 C CNN
@@ -56,7 +26,7 @@ F 3 "" H 7000 2750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D16
+L Device:D D16
 U 1 1 59C7D29A
 P 7400 3450
 F 0 "D16" H 7400 3550 50  0000 C CNN
@@ -67,7 +37,7 @@ F 3 "" H 7400 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J6
+L bosch_kf3_diodematrix-rescue:GS3 J6
 U 1 1 59C80A45
 P 3400 3050
 F 0 "J6" H 3600 3150 50  0000 C CNN
@@ -78,7 +48,7 @@ F 3 "" H 3400 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J7
+L bosch_kf3_diodematrix-rescue:GS3 J7
 U 1 1 59C80FBF
 P 3800 3050
 F 0 "J7" H 4000 3150 50  0000 C CNN
@@ -89,7 +59,7 @@ F 3 "" H 3800 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J8
+L bosch_kf3_diodematrix-rescue:GS3 J8
 U 1 1 59C813B5
 P 4200 3050
 F 0 "J8" H 4400 3150 50  0000 C CNN
@@ -100,7 +70,7 @@ F 3 "" H 4200 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J9
+L bosch_kf3_diodematrix-rescue:GS3 J9
 U 1 1 59C81449
 P 4600 3050
 F 0 "J9" H 4800 3150 50  0000 C CNN
@@ -111,7 +81,7 @@ F 3 "" H 4600 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J10
+L bosch_kf3_diodematrix-rescue:GS3 J10
 U 1 1 59C814DE
 P 5000 3050
 F 0 "J10" H 5200 3150 50  0000 C CNN
@@ -122,7 +92,7 @@ F 3 "" H 5000 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J11
+L bosch_kf3_diodematrix-rescue:GS3 J11
 U 1 1 59C8188E
 P 5400 3050
 F 0 "J11" H 5600 3150 50  0000 C CNN
@@ -133,7 +103,7 @@ F 3 "" H 5400 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J12
+L bosch_kf3_diodematrix-rescue:GS3 J12
 U 1 1 59C81DA3
 P 5800 3050
 F 0 "J12" H 6000 3150 50  0000 C CNN
@@ -144,7 +114,7 @@ F 3 "" H 5800 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J13
+L bosch_kf3_diodematrix-rescue:GS3 J13
 U 1 1 59C81F19
 P 6200 3050
 F 0 "J13" H 6400 3150 50  0000 C CNN
@@ -155,7 +125,7 @@ F 3 "" H 6200 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J14
+L bosch_kf3_diodematrix-rescue:GS3 J14
 U 1 1 59C81FBC
 P 6600 3050
 F 0 "J14" H 6800 3150 50  0000 C CNN
@@ -166,7 +136,7 @@ F 3 "" H 6600 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J15
+L bosch_kf3_diodematrix-rescue:GS3 J15
 U 1 1 59C82060
 P 7000 3050
 F 0 "J15" H 7200 3150 50  0000 C CNN
@@ -177,7 +147,7 @@ F 3 "" H 7000 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J16
+L bosch_kf3_diodematrix-rescue:GS3 J16
 U 1 1 59C82107
 P 7400 3050
 F 0 "J16" H 7600 3150 50  0000 C CNN
@@ -188,7 +158,7 @@ F 3 "" H 7400 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J5
+L bosch_kf3_diodematrix-rescue:GS3 J5
 U 1 1 59C8AF4D
 P 3000 3050
 F 0 "J5" H 3200 3150 50  0000 C CNN
@@ -199,7 +169,7 @@ F 3 "" H 3000 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J4
+L bosch_kf3_diodematrix-rescue:GS3 J4
 U 1 1 59C8AFF6
 P 2600 3050
 F 0 "J4" H 2800 3150 50  0000 C CNN
@@ -210,7 +180,7 @@ F 3 "" H 2600 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J3
+L bosch_kf3_diodematrix-rescue:GS3 J3
 U 1 1 59C8B0AC
 P 2200 3050
 F 0 "J3" H 2400 3150 50  0000 C CNN
@@ -221,7 +191,7 @@ F 3 "" H 2200 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J2
+L bosch_kf3_diodematrix-rescue:GS3 J2
 U 1 1 59C8B15B
 P 1800 3050
 F 0 "J2" H 2000 3150 50  0000 C CNN
@@ -232,7 +202,7 @@ F 3 "" H 1800 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GS3 J1
+L bosch_kf3_diodematrix-rescue:GS3 J1
 U 1 1 59C8BB21
 P 1400 3050
 F 0 "J1" H 1600 3150 50  0000 C CNN
@@ -245,65 +215,65 @@ $EndComp
 Wire Wire Line
 	7600 5150 7400 5150
 Wire Wire Line
-	7400 3600 7400 5200
+	7400 3600 7400 5150
 Wire Wire Line
 	7600 5050 7000 5050
 Wire Wire Line
-	7000 3600 7000 5200
+	7000 3600 7000 5050
 Wire Wire Line
 	7600 4950 6600 4950
 Wire Wire Line
-	6600 3600 6600 5200
+	6600 3600 6600 4950
 Wire Wire Line
 	7600 4850 6200 4850
 Wire Wire Line
-	6200 3600 6200 5200
+	6200 3600 6200 4850
 Wire Wire Line
 	7600 4750 5800 4750
 Wire Wire Line
-	5800 3600 5800 5200
+	5800 3600 5800 4750
 Wire Wire Line
-	5400 3600 5400 5200
+	5400 3600 5400 4650
 Wire Wire Line
 	5400 4650 7600 4650
 Wire Wire Line
 	7600 4550 5000 4550
 Wire Wire Line
-	5000 3600 5000 5200
+	5000 3600 5000 4550
 Wire Wire Line
 	7600 4450 4600 4450
 Wire Wire Line
-	4600 3600 4600 5200
+	4600 3600 4600 4450
 Wire Wire Line
-	4200 3600 4200 5200
+	4200 3600 4200 4350
 Wire Wire Line
 	4200 4350 7600 4350
 Wire Wire Line
 	7600 4250 3800 4250
 Wire Wire Line
-	3800 3600 3800 5200
+	3800 3600 3800 4250
 Wire Wire Line
-	3400 3600 3400 5200
+	3400 3600 3400 4150
 Wire Wire Line
 	3400 4150 7600 4150
 Wire Wire Line
 	7600 4050 3000 4050
 Wire Wire Line
-	3000 3600 3000 5200
+	3000 3600 3000 4050
 Wire Wire Line
 	7600 3950 2600 3950
 Wire Wire Line
-	2600 3600 2600 5200
+	2600 3600 2600 3950
 Wire Wire Line
-	2200 3600 2200 5200
+	2200 3600 2200 3850
 Wire Wire Line
 	2200 3850 7600 3850
 Wire Wire Line
 	7600 3750 1800 3750
 Wire Wire Line
-	1800 3600 1800 5200
+	1800 3600 1800 3750
 Wire Wire Line
-	1400 3600 1400 5200
+	1400 3600 1400 3650
 Wire Wire Line
 	1400 3650 7600 3650
 Connection ~ 7400 5150
@@ -327,7 +297,7 @@ Connection ~ 7000 5050
 Wire Wire Line
 	1400 5600 1400 5650
 Wire Wire Line
-	1400 5650 8100 5650
+	1400 5650 1800 5650
 Wire Wire Line
 	7000 5650 7000 5600
 Wire Wire Line
@@ -370,7 +340,7 @@ Wire Wire Line
 	1800 5600 1800 5650
 Connection ~ 1800 5650
 Wire Wire Line
-	7400 5600 7400 5700
+	7400 5600 7400 5650
 Connection ~ 7000 5650
 Connection ~ 7400 5650
 Wire Wire Line
@@ -406,7 +376,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 2900 7500 2850
 Wire Wire Line
-	1500 2850 8650 2850
+	1500 2850 1900 2850
 Wire Wire Line
 	1500 2850 1500 2900
 Wire Wire Line
@@ -454,7 +424,7 @@ Connection ~ 7100 2850
 Wire Wire Line
 	7300 2900 7300 2800
 Wire Wire Line
-	1300 2800 8700 2800
+	1300 2800 1700 2800
 Wire Wire Line
 	1300 2800 1300 2900
 Wire Wire Line
@@ -507,7 +477,7 @@ Wire Wire Line
 	8700 3750 8600 3750
 Connection ~ 7300 2800
 $Comp
-L GS2 J32
+L bosch_kf3_diodematrix-rescue:GS2 J32
 U 1 1 59C94ED3
 P 7400 5400
 F 0 "J32" H 7500 5550 50  0000 C CNN
@@ -518,7 +488,7 @@ F 3 "" H 7400 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J31
+L bosch_kf3_diodematrix-rescue:GS2 J31
 U 1 1 59C9517A
 P 7000 5400
 F 0 "J31" H 7100 5550 50  0000 C CNN
@@ -529,7 +499,7 @@ F 3 "" H 7000 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J30
+L bosch_kf3_diodematrix-rescue:GS2 J30
 U 1 1 59C951FF
 P 6600 5400
 F 0 "J30" H 6700 5550 50  0000 C CNN
@@ -540,7 +510,7 @@ F 3 "" H 6600 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J29
+L bosch_kf3_diodematrix-rescue:GS2 J29
 U 1 1 59C9528B
 P 6200 5400
 F 0 "J29" H 6300 5550 50  0000 C CNN
@@ -551,7 +521,7 @@ F 3 "" H 6200 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J28
+L bosch_kf3_diodematrix-rescue:GS2 J28
 U 1 1 59C95334
 P 5800 5400
 F 0 "J28" H 5900 5550 50  0000 C CNN
@@ -562,7 +532,7 @@ F 3 "" H 5800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J27
+L bosch_kf3_diodematrix-rescue:GS2 J27
 U 1 1 59C953CE
 P 5400 5400
 F 0 "J27" H 5500 5550 50  0000 C CNN
@@ -573,7 +543,7 @@ F 3 "" H 5400 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J26
+L bosch_kf3_diodematrix-rescue:GS2 J26
 U 1 1 59C95637
 P 5000 5400
 F 0 "J26" H 5100 5550 50  0000 C CNN
@@ -584,7 +554,7 @@ F 3 "" H 5000 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J25
+L bosch_kf3_diodematrix-rescue:GS2 J25
 U 1 1 59C956CB
 P 4600 5400
 F 0 "J25" H 4700 5550 50  0000 C CNN
@@ -595,7 +565,7 @@ F 3 "" H 4600 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J24
+L bosch_kf3_diodematrix-rescue:GS2 J24
 U 1 1 59C95762
 P 4200 5400
 F 0 "J24" H 4300 5550 50  0000 C CNN
@@ -606,7 +576,7 @@ F 3 "" H 4200 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J23
+L bosch_kf3_diodematrix-rescue:GS2 J23
 U 1 1 59C957FC
 P 3800 5400
 F 0 "J23" H 3900 5550 50  0000 C CNN
@@ -617,7 +587,7 @@ F 3 "" H 3800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J22
+L bosch_kf3_diodematrix-rescue:GS2 J22
 U 1 1 59C958A1
 P 3400 5400
 F 0 "J22" H 3500 5550 50  0000 C CNN
@@ -628,7 +598,7 @@ F 3 "" H 3400 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J21
+L bosch_kf3_diodematrix-rescue:GS2 J21
 U 1 1 59C95941
 P 3000 5400
 F 0 "J21" H 3100 5550 50  0000 C CNN
@@ -639,7 +609,7 @@ F 3 "" H 3000 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J20
+L bosch_kf3_diodematrix-rescue:GS2 J20
 U 1 1 59C95C04
 P 2600 5400
 F 0 "J20" H 2700 5550 50  0000 C CNN
@@ -650,7 +620,7 @@ F 3 "" H 2600 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J19
+L bosch_kf3_diodematrix-rescue:GS2 J19
 U 1 1 59C95CB2
 P 2200 5400
 F 0 "J19" H 2300 5550 50  0000 C CNN
@@ -661,7 +631,7 @@ F 3 "" H 2200 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J18
+L bosch_kf3_diodematrix-rescue:GS2 J18
 U 1 1 59C95D5B
 P 1800 5400
 F 0 "J18" H 1900 5550 50  0000 C CNN
@@ -672,7 +642,7 @@ F 3 "" H 1800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J17
+L bosch_kf3_diodematrix-rescue:GS2 J17
 U 1 1 59C95E0B
 P 1400 5400
 F 0 "J17" H 1500 5550 50  0000 C CNN
@@ -683,7 +653,7 @@ F 3 "" H 1400 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D15
+L Device:D D15
 U 1 1 59C9845D
 P 7000 3450
 F 0 "D15" H 7000 3550 50  0000 C CNN
@@ -694,7 +664,7 @@ F 3 "" H 7000 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D14
+L Device:D D14
 U 1 1 59C985AF
 P 6600 3450
 F 0 "D14" H 6600 3550 50  0000 C CNN
@@ -705,7 +675,7 @@ F 3 "" H 6600 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D13
+L Device:D D13
 U 1 1 59C9863B
 P 6200 3450
 F 0 "D13" H 6200 3550 50  0000 C CNN
@@ -716,7 +686,7 @@ F 3 "" H 6200 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D12
+L Device:D D12
 U 1 1 59C986C6
 P 5800 3450
 F 0 "D12" H 5800 3550 50  0000 C CNN
@@ -727,7 +697,7 @@ F 3 "" H 5800 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D11
+L Device:D D11
 U 1 1 59C98758
 P 5400 3450
 F 0 "D11" H 5400 3550 50  0000 C CNN
@@ -738,7 +708,7 @@ F 3 "" H 5400 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D10
+L Device:D D10
 U 1 1 59C989BF
 P 5000 3450
 F 0 "D10" H 5000 3550 50  0000 C CNN
@@ -749,7 +719,7 @@ F 3 "" H 5000 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D9
+L Device:D D9
 U 1 1 59C98A57
 P 4600 3450
 F 0 "D9" H 4600 3550 50  0000 C CNN
@@ -760,7 +730,7 @@ F 3 "" H 4600 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D8
+L Device:D D8
 U 1 1 59C98AEE
 P 4200 3450
 F 0 "D8" H 4200 3550 50  0000 C CNN
@@ -771,7 +741,7 @@ F 3 "" H 4200 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D7
+L Device:D D7
 U 1 1 59C98B8E
 P 3800 3450
 F 0 "D7" H 3800 3550 50  0000 C CNN
@@ -782,7 +752,7 @@ F 3 "" H 3800 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D6
+L Device:D D6
 U 1 1 59C98C2B
 P 3400 3450
 F 0 "D6" H 3400 3550 50  0000 C CNN
@@ -793,7 +763,7 @@ F 3 "" H 3400 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D5
+L Device:D D5
 U 1 1 59C98CCB
 P 3000 3450
 F 0 "D5" H 3000 3550 50  0000 C CNN
@@ -804,7 +774,7 @@ F 3 "" H 3000 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D4
+L Device:D D4
 U 1 1 59C98D6E
 P 2600 3450
 F 0 "D4" H 2600 3550 50  0000 C CNN
@@ -815,7 +785,7 @@ F 3 "" H 2600 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D3
+L Device:D D3
 U 1 1 59C990FA
 P 2200 3450
 F 0 "D3" H 2200 3550 50  0000 C CNN
@@ -826,7 +796,7 @@ F 3 "" H 2200 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D2
+L Device:D D2
 U 1 1 59C991A7
 P 1800 3450
 F 0 "D2" H 1800 3550 50  0000 C CNN
@@ -837,7 +807,7 @@ F 3 "" H 1800 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D1
+L Device:D D1
 U 1 1 59C99253
 P 1400 3450
 F 0 "D1" H 1400 3550 50  0000 C CNN
@@ -857,12 +827,12 @@ NoConn ~ 8600 4850
 NoConn ~ 8600 4950
 NoConn ~ 8600 5150
 Wire Wire Line
-	8100 5450 8100 5700
+	8100 5450 8100 5650
 Wire Wire Line
 	4900 2900 4900 2800
 Connection ~ 4900 2800
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 59C7A7E3
 P 8100 5700
 F 0 "#PWR01" H 8100 5450 50  0001 C CNN
@@ -874,7 +844,7 @@ F 3 "" H 8100 5700 50  0001 C CNN
 $EndComp
 Connection ~ 8100 5650
 $Comp
-L PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 59C7A995
 P 7400 5700
 F 0 "#FLG02" H 7400 5775 50  0001 C CNN
@@ -884,4 +854,130 @@ F 3 "" H 7400 5700 50  0001 C CNN
 	1    7400 5700
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	7400 5150 7400 5200
+Wire Wire Line
+	1400 3650 1400 5200
+Wire Wire Line
+	1800 3750 1800 5200
+Wire Wire Line
+	2200 3850 2200 5200
+Wire Wire Line
+	2600 3950 2600 5200
+Wire Wire Line
+	3000 4050 3000 5200
+Wire Wire Line
+	3400 4150 3400 5200
+Wire Wire Line
+	3800 4250 3800 5200
+Wire Wire Line
+	4200 4350 4200 5200
+Wire Wire Line
+	4600 4450 4600 5200
+Wire Wire Line
+	5000 4550 5000 5200
+Wire Wire Line
+	5400 4650 5400 5200
+Wire Wire Line
+	5800 4750 5800 5200
+Wire Wire Line
+	6200 4850 6200 5200
+Wire Wire Line
+	6600 4950 6600 5200
+Wire Wire Line
+	7000 5050 7000 5200
+Wire Wire Line
+	6600 5650 7000 5650
+Wire Wire Line
+	6200 5650 6600 5650
+Wire Wire Line
+	5800 5650 6200 5650
+Wire Wire Line
+	5400 5650 5800 5650
+Wire Wire Line
+	5000 5650 5400 5650
+Wire Wire Line
+	4600 5650 5000 5650
+Wire Wire Line
+	4200 5650 4600 5650
+Wire Wire Line
+	3800 5650 4200 5650
+Wire Wire Line
+	3400 5650 3800 5650
+Wire Wire Line
+	3000 5650 3400 5650
+Wire Wire Line
+	2600 5650 3000 5650
+Wire Wire Line
+	2200 5650 2600 5650
+Wire Wire Line
+	1800 5650 2200 5650
+Wire Wire Line
+	7000 5650 7400 5650
+Wire Wire Line
+	7400 5650 7400 5700
+Wire Wire Line
+	7400 5650 8100 5650
+Wire Wire Line
+	1900 2850 2300 2850
+Wire Wire Line
+	2300 2850 2700 2850
+Wire Wire Line
+	2700 2850 3100 2850
+Wire Wire Line
+	3100 2850 3500 2850
+Wire Wire Line
+	3500 2850 3900 2850
+Wire Wire Line
+	3900 2850 4300 2850
+Wire Wire Line
+	4300 2850 4700 2850
+Wire Wire Line
+	4700 2850 5100 2850
+Wire Wire Line
+	5100 2850 5500 2850
+Wire Wire Line
+	5500 2850 5900 2850
+Wire Wire Line
+	5900 2850 6300 2850
+Wire Wire Line
+	6300 2850 6700 2850
+Wire Wire Line
+	6700 2850 7100 2850
+Wire Wire Line
+	7100 2850 7500 2850
+Wire Wire Line
+	1700 2800 2100 2800
+Wire Wire Line
+	2100 2800 2500 2800
+Wire Wire Line
+	2500 2800 2900 2800
+Wire Wire Line
+	2900 2800 3300 2800
+Wire Wire Line
+	3300 2800 3700 2800
+Wire Wire Line
+	3700 2800 4100 2800
+Wire Wire Line
+	4100 2800 4500 2800
+Wire Wire Line
+	4500 2800 4900 2800
+Wire Wire Line
+	6100 2800 6500 2800
+Wire Wire Line
+	5700 2800 6100 2800
+Wire Wire Line
+	5300 2800 5700 2800
+Wire Wire Line
+	6500 2800 6900 2800
+Wire Wire Line
+	6900 2800 7300 2800
+Wire Wire Line
+	7500 2850 8650 2850
+Wire Wire Line
+	7300 2800 8700 2800
+Wire Wire Line
+	4900 2800 5300 2800
+Wire Wire Line
+	8100 5650 8100 5700
 $EndSCHEMATC

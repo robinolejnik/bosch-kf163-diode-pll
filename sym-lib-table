@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name bosch_kf3_diodematrix-rescue)(type Legacy)(uri ${KIPRJMOD}/bosch_kf3_diodematrix-rescue.lib)(options "")(descr ""))
+)
