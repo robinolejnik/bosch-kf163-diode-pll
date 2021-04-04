@@ -1,6 +1,41 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# D-Device
+#
+DEF D-Device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D-Device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND-power
+#
+DEF GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # GS2
 #
 DEF GS2 J 0 40 N N 1 F N
@@ -76,6 +111,19 @@ X CR 6 1200 100 200 L 50 50 1 1 P
 X CT 7 1200 0 200 L 50 50 1 1 P
 X DR 8 1200 -200 200 L 50 50 1 1 P
 X DT 9 1200 -300 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PWR_FLAG-power
+#
+DEF PWR_FLAG-power #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "PWR_FLAG-power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
