@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name bosch_kf_diode_pll)(type Legacy)(uri ${KIPRJMOD}/bosch_kf_diode_pll.lib)(options "")(descr ""))
-)
