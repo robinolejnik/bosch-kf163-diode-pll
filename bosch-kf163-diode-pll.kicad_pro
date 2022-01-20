@@ -120,6 +120,7 @@
       "track_widths": [
         0.0,
         0.25,
+        0.4,
         0.5,
         1.0
       ],
@@ -352,7 +353,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bosch_kf_diode_pll.kicad_pro",
+    "filename": "bosch-kf163-diode-pll.kicad_pro",
     "version": 1
   },
   "net_settings": {
